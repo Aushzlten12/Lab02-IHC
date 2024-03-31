@@ -1,0 +1,58 @@
+/*
+Hoja de estilo CSS para el componente states de la tarea 2 del lab06 de  cc3s2
+
+Ya que las CSS utiliza un espacio de nombres global para las clases 
+debemos usar nombres que comienzan con cc451-states-  en este archivo.
+*/
+
+body {
+  margin: 0;
+}
+
+.container-p2 {
+  margin: 0px 8px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container-input {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f1;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.container-input p {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.container-input input {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+ul li {
+  padding: 8px 4px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px dashed #ccc;
+}

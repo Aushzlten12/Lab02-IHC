@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #050802;
+  margin: 0;
+  padding: 5px;
+}
+
+.header h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 12px;
+}
+
+.menu {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.menu #home {
+  filter: invert(100%);
+}
+
+img {
+  height: 40px;
+}
+
+.menu #react {
+  margin-right: 12px;
+}
