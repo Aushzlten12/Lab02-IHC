@@ -13,7 +13,9 @@ class Header extends React.Component {
           <a href="index.html">
             <img id="home" src={homelogo} alt="home-icon" />
           </a>
-          <img id="github" src={githublogo} alt="github-icon" />
+          <a href="https://github.com/Aushzlten12/Lab02-IHC">
+            <img id="github" src={githublogo} alt="github-icon" />
+          </a>
           <a href="https://es.react.dev/">
             <img id="react" src={reactlogo} alt="react-icon" />
           </a>

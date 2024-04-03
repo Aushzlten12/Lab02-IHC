@@ -6,6 +6,11 @@ convención de nombres que incluye la aplicacion React y el componente en el nom
 La idea es que cualquier otra hoja de estilos que se use, no entrará en conflicto con 
 estos nombres.
 */
+
+body {
+    margin: 0;
+}
+
 .cc451-example-code {
     font-family:
         Courier New,
